@@ -112,10 +112,10 @@ function zeichnetabelle() {
             i.beschreibung = 'No description available.';
         }
         if (i.bildklein == null) {
-        i.bildklein = 'img/spacex-logo.png';
+        i.bildklein = 'static/img/spacex-logo.png';
         }
         if (i.bildgross == null) {
-        i.bildgross = 'img/spacex-logo.png';
+        i.bildgross = 'static/img/spacex-logo.png';
         }
 
         gesamtMissionen++;
@@ -140,7 +140,7 @@ function zeichnetabelle() {
             <td>${i.startplatz}</td>
             <td class="text-center">${i.ladungen} payload(s)<br>
                 with ${tempGewicht} kg total mass</td>
-            <td class="text-center"><img src="img/success-${i.erfolg}.png"  height="30px"></td>
+            <td class="text-center"><img src="static/img/success-${i.erfolg}.png"  height="30px"></td>
         </tr>
         `;
 
